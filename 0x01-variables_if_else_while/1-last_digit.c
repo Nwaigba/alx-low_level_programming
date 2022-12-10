@@ -1,5 +1,5 @@
 #include <stdlib.h>
-7#include <time.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -27,4 +27,3 @@ int main(void)
 	}
 	return (0);
 }
-
