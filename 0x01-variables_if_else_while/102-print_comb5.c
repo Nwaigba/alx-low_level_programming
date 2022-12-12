@@ -7,34 +7,41 @@
   */
 int main(void)
 {
-	int c, i, k, j;
+	int i, e, g, h, op1, op2;
 
-	for (c = 48; c <= 57; c++)
+	i = e = g = h = 48;
+	while (h < 58)
 	{
-		for (i = 48; i <= 57; i++)
+		g = 48;
+		while (g < 58)
 		{
-			for (k = 48; k <= 57; k++)
+			e = 48;
+			while (e < 58)
 			{
-				for (j = 48; j <= 57; j++)
+				i = 48;
+				while (i < 58)
 				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
+					op1 = (h * 10) + g;
+					op2 = (e * 10) + i;
+					if (op1 < op2)
 					{
-						putchar(c);
-						putchar(i);
+						putchar(h);
+						putchar(g);
 						putchar(' ');
-						putchar(k);
-						putchar(j);
-					if (c + i + k + j == 227 && c == 57)
+						putchar(e);
+						putchar(i);
+					if (h == 57 && g == 56 && e == 57 && i == 57)
 						break;
-					}
-					else
-					{
 						putchar(',');
 						putchar(' ');
 					}
+					i++;
 				}
+				e++;
 			}
+			g++;
 		}
+		h++;
 	}
 	putchar('\n');
 	return (0);
