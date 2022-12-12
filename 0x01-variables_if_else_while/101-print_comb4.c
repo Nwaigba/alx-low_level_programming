@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-	int 1, e, g;
+	int i, e, g;
 
 	i = 48;
 	e = 48;
@@ -33,11 +33,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				g++
+				g++;
 			}
-			i++
+			i++;
 		}
-		e++
+		e++;
 	}
 	putchar('\n');
 	return (0);
