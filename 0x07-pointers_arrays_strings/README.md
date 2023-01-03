@@ -1,1 +1,1 @@
-all about C - Even more pointers, arrays and strings
+all about C: - Even more pointers, arrays and strings
