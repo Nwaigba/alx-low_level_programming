@@ -1,20 +1,3 @@
-
-baranosh
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-@baranosh
-baranosh user defined functions
- 1 contributor
-315 lines (286 sloc)  6.68 KB
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
